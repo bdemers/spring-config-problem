@@ -23,7 +23,7 @@ public final class BrokenConfigProperties {
 
     private final NestedConfigProperties nested;
 
-    private String aStringValue;
+    private String oneStringValue;
 
     // Uncomment for work around
 //    private BrokenConfigProperties() {
@@ -35,15 +35,15 @@ public final class BrokenConfigProperties {
         this.nested = nested;
     }
 
-    public String getaStringValue() {
-        return aStringValue;
+    public String getOneStringValue() {
+        return oneStringValue;
     }
 
-    public void setaStringValue(String aStringValue) {
-        this.aStringValue = aStringValue;
+    public void setOneStringValue(String oneStringValue) {
+        this.oneStringValue = oneStringValue;
     }
 
-    public NestedConfigProperties getNested() {
+    private NestedConfigProperties getNested() {
         return nested;
     }
 }
